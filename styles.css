@@ -1,0 +1,27 @@
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+* {
+    color: var(--fontColor);
+    font-family: monospace;
+    background: var(--bg);
+}
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+}
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+}
+.btn {
+    
+    top: 20px;
+    left: 250px;
+    height: 30px;
+    width: 50px;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
